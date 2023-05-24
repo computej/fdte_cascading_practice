@@ -2,7 +2,7 @@ div
 {
   float: left;
   box-sizing: border-box;
-  border-style: dashed;
+  /*! border-style: dashed; */
   width: 33%;
   background-color:violet;
 }
