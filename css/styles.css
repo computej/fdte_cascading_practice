@@ -8,11 +8,6 @@ body
 {
   
 }*/
-hr
-{
-  border-color: darkslateblue;
-  margin: 1rem auto;
-}
 h1::before
 {
   content: "🙐";
@@ -20,6 +15,19 @@ h1::before
 h1::after
 {
  content: "🙖"; 
+}
+hr
+{
+  border-color: darkslateblue;
+  margin: 1rem auto;
+}
+h2::before
+{
+  content: "🙛";
+}
+h2::after
+{
+  content: "🙙";
 }
 div
 {
