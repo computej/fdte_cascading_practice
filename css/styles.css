@@ -1,6 +1,18 @@
+h1
+{
+  text-align: center;
+}
+h1::before
+{
+  content: "🙐";
+}
+h1::after
+{
+ content: "🙖"; 
+}
 body
 {
-  background-color: slateblue;
+  background-color: mediumslateblue;
   font-family: Roboto ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 div
@@ -9,7 +21,7 @@ div
   box-sizing: border-box;
   /*! border-style: dashed; */
   width: 33%;
-  background-color:mediumpurple;
+  background-color:slateblue;
 }
 div > img
 {
