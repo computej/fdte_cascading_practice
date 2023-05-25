@@ -8,6 +8,11 @@ body
 {
   
 }*/
+hr
+{
+  border-color: darkslateblue;
+  margin: 1rem auto;
+}
 h1::before
 {
   content: "🙐";
