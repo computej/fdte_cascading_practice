@@ -1,6 +1,7 @@
 body
 {
-  background-color: pink;
+  background-color: slateblue;
+  font-family: Roboto ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 div
 {
@@ -8,9 +9,10 @@ div
   box-sizing: border-box;
   /*! border-style: dashed; */
   width: 33%;
-  background-color:violet;
+  background-color:mediumpurple;
 }
 div > img
 {
   float: left;
+  width: 33%;
 }
