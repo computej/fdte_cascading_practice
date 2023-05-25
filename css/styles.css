@@ -35,8 +35,25 @@ div
   text-align: left;
   box-sizing: border-box;
   /*! border-style: dashed; */
-  width: 33%;
+  width: 33.333%;
   background-color:slateblue;
+}
+.available_anim_divs
+{
+  margin: 1rem auto;
+}
+#intro_1
+{
+  width: 50%;
+  float: none;
+  display: grid;
+  margin: 0 auto;
+}
+#intro_1 > img
+{
+  margin: 0 auto;
+  width: 25%;
+  rotate: 90deg;
 }
 div > img
 {
@@ -45,6 +62,10 @@ div > img
 }
 #disclaimer_text
 {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  background-color: unset;
   font-family: system-ui;
   font-size: small;
 }
