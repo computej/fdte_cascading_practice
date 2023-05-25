@@ -1,7 +1,13 @@
-h1
+body
 {
   text-align: center;
+  background-color: mediumslateblue;
+  font-family: Roboto ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/*h1
+{
+  
+}*/
 h1::before
 {
   content: "🙐";
@@ -10,14 +16,10 @@ h1::after
 {
  content: "🙖"; 
 }
-body
-{
-  background-color: mediumslateblue;
-  font-family: Roboto ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 div
 {
   float: left;
+  text-align: left;
   box-sizing: border-box;
   /*! border-style: dashed; */
   width: 33%;
@@ -27,4 +29,9 @@ div > img
 {
   float: left;
   width: 33%;
+}
+#disclaimer_text
+{
+  font-family: system-ui;
+  font-size: small;
 }
